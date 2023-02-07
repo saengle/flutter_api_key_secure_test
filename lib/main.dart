@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'dart_define/dart_define.dart';
 import 'hard_cord/first_hard_cording.dart';
 // https://codewithandrea.com/articles/flutter-api-keys-dart-define-env-files/
 // 위 사이트 토대로 연습.
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HardCordingApiKey(),
+      home: const ApiKeyUsingDefine(),
     );
   }
 }
